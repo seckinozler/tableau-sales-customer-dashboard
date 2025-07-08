@@ -80,13 +80,13 @@ Accessible on all views, allowing filters by:
 ## 📸 Screenshots
 
 ### Sales Dashboard  
-![Sales Dashboard](dashboard/sales_dashboard_screenshot.png)
+![Sales Dashboard](dashboard/sales_dashboard_light.png)
 
 ### Customer Dashboard  
-![Customer Dashboard](dashboard/customer_dashboard_screenshot.png)
+![Customer Dashboard](dashboard/customer_dashboard_light.png)
 
 ### Filters Panel  
-![Filters Panel](dashboard/filters_panel_screenshot.png)
+![Filters Panel](dashboard/filters_panel_light.png)
 
 ---
 
