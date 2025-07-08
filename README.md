@@ -26,6 +26,14 @@ All KPIs dynamically update based on selected year (2020–2023) and are compare
 
 ---
 
+## 🌐 Live Interactive Dashboard
+
+You can view the fully interactive Tableau dashboard online via Tableau Public:
+
+🔗 **[Click here to open on Tableau Public](https://public.tableau.com/app/profile/seckin.ozler/viz/SalesCustomerDashboard_17173539058380/SalesDashboard)**
+
+---
+
 ## 🗂️ Dashboard Structure
 
 The Tableau project includes **three interactive views**, accessible via buttons in the top-right navigation:
