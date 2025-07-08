@@ -6,49 +6,46 @@ An interactive, multi-page Tableau dashboard designed to analyze key sales metri
 
 ## 📌 Project Overview
 
-This dashboard helps answer key business questions like:
+This dashboard helps answer key business questions such as:
 
 - How have sales, profit, and order quantities evolved over time?
-- What is the impact of each product subcategory on total profit?
-- Who are the top-performing customers by revenue and profitability?
-- Which regions, customer segments, and categories are driving business?
+- Which product subcategories contribute most to profitability or loss?
+- Who are the top-performing customers based on profit?
+- How do yearly trends compare with previous years (YoY)?
 
-The dashboard dynamically adjusts to the selected year and **automatically compares each KPI to its previous year equivalent**.
+All KPIs dynamically update based on selected year (2020–2023) and are compared with the previous year.
 
 ---
 
 ## 🛠️ Tools Used
 
-| Tool     | Purpose                          |
-|----------|----------------------------------|
-| **Tableau** | Interactive dashboard design and publishing |
-| **Cleaned CSV/XLSX Dataset** | Source data, preprocessed and ready for analysis |
+| Tool     | Purpose                                |
+|----------|----------------------------------------|
+| **Tableau** | Dashboard creation and interactivity |
+| **Excel / CSV** | Cleaned dataset used as data source |
 
 ---
 
-## 🗂️ Dashboard Layout
+## 🗂️ Dashboard Structure
 
-The application includes **three main components**, accessible via buttons in the top-right navigation bar:
+The Tableau project includes **three interactive views**, accessible via buttons in the top-right navigation:
 
 ### 1. 📈 Sales Dashboard
-- KPIs: Total Sales, Total Profit, Total Quantity
-- Year-over-year (YoY) comparison for each metric
-- Monthly trend lines with highest/lowest month indicators
-- Sales % Profit by Subcategory (2023 vs 2022 comparison)
-- Weekly trend chart: Sales and Profit over time
+- KPIs: Total Sales, Total Profit, Total Quantity  
+- Monthly trend with highest and lowest point highlights  
+- Subcategory Profit % Comparison (2023 vs 2022)  
+- Sales and Profit over time (weekly)  
 
 ### 2. 👥 Customer Dashboard
-- KPIs: Total Customers, Total Orders, Sales per Customer
-- Customer distribution by number of orders
-- Top 10 Customers by Profit (with last order, sales, and order count)
+- KPIs: Total Customers, Total Orders, Sales per Customer  
+- Customer order distribution  
+- Top 10 Customers by Profit with Last Order & Order Count  
 
 ### 3. 🧰 Filter Panel
-Accessible from all pages via the filter icon, enabling:
-- Year selection: 2020, 2021, 2022, 2023
-- Product filters: Category, Sub-Category
-- Location filters: Region, State, City
-
-🧠 All KPIs and visualizations auto-update based on selected filters and year.
+Accessible on all views, allowing filters by:
+- **Year** (2020–2023)
+- **Product**: Category, Sub-Category  
+- **Location**: Region, State, City  
 
 ---
 
@@ -56,33 +53,31 @@ Accessible from all pages via the filter icon, enabling:
 
 - Total Sales: **$733K** → ▲ 20.36% vs 2022  
 - Total Profit: **$93K** → ▲ 14.24% vs 2022  
-- Quantity Sold: **12K units** → ▲ 26.83% vs 2022  
-- Underperforming categories: Machines, Accessories, Labels  
-- Top customer by profit: Raymond Buch ($6,781 profit, $14,203 sales)
+- Quantity Sold: **12K** → ▲ 26.83% vs 2022  
+- Losses observed in: Machines, Accessories, Labels  
+- Top Customer: **Raymond Buch** ($6,781 profit, $14,203 sales)
 
 ---
 
-## 💡 Business Recommendations
+## 💡 Recommendations
 
-- Focus marketing efforts on top 10 customers
-- Reevaluate inventory strategies for low-profit categories
-- Use customer segmentation for loyalty campaigns
-- Improve cross-sell strategies in high-frequency customer segments
+- Focus on underperforming subcategories and optimize pricing
+- Prioritize high-value customers with loyalty programs
+- Launch year-end marketing campaigns based on seasonal peaks
+- Improve retention in 1-2 order customer segments
 
 ---
 
 ## 📁 Dataset Summary
 
-- Cleaned dataset sourced from retail transactional data  
-- ~16,000 transactions over 4 years  
-- Fields: Order Date, Customer, Product, Sales, Profit, Quantity, Region, Segment  
-- Fully preprocessed, no missing values or outliers
+- Cleaned transactional sales dataset  
+- 4 years of data (2020–2023)  
+- 16,000+ orders across categories and regions  
+- Fully preprocessed, no missing values  
 
 ---
 
 ## 📸 Screenshots
-
-> Screenshots will be added under `/dashboard/` folder.
 
 ### Sales Dashboard  
 ![Sales Dashboard](dashboard/sales_dashboard_screenshot.png)
@@ -97,10 +92,9 @@ Accessible from all pages via the filter icon, enabling:
 
 ## 📬 Contact
 
-**Author:** Seçkin Özler
+- **GitHub:** [github.com/seckinozler](https://github.com/seckinozler)  
+- **LinkedIn:** [linkedin.com/in/seckinozler](https://www.linkedin.com/in/seckinozler/)  
+- **Website:** [seckinsafakozler.wixsite.com/portfolio](https://seckinsafakozler.wixsite.com/portfolio)
 
-**GitHub:** [https://github.com/seckinozler](https://github.com/seckinozler)  
+---
 
-**LinkedIn:** [https://www.linkedin.com/in/your-link-here](https://www.linkedin.com/in/seckinozler)
-
-**Website:** [https://seckinsafakozler.wixsite.com/portfolio]((https://seckinsafakozler.wixsite.com/portfolio))
