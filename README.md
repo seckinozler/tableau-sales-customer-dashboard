@@ -98,6 +98,9 @@ Accessible from all pages via the filter icon, enabling:
 ## 📬 Contact
 
 **Author:** Seçkin Özler
+
 **GitHub:** [https://github.com/seckinozler](https://github.com/seckinozler)  
+
 **LinkedIn:** [https://www.linkedin.com/in/your-link-here](https://www.linkedin.com/in/seckinozler)
+
 **Website:** [https://seckinsafakozler.wixsite.com/portfolio]((https://seckinsafakozler.wixsite.com/portfolio))
